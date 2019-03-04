@@ -1,0 +1,291 @@
+/* ESTRUTURA DO SITE
+----------------------------*/
+body{
+    margin: 5px 0 0 0;
+    padding: 0;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    background: #eee; 
+}
+
+main{
+    border-radius: 15px 15px 0 0; 
+    width: 1080px;
+    margin: 0 auto;
+    background: #fff; 
+}
+
+.btn{
+    width:110px;
+    height:40px;
+    background: #341d08;
+    color: #fff;
+    border:0 none;
+    border-radius: 10px; 
+    font-size: 12px;
+}
+
+.btn:hover{
+    color:  #F0E68C;
+    cursor: pointer;
+    background: #1f1204;
+}
+
+.topo{
+    width: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: right;
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+}
+
+h2{
+    color: #341d08;
+    text-align: center;
+}
+
+
+
+a:link, a:active, a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover{
+    color: #F0E68C;
+    text-decoration: underline;
+}
+
+/* LOGO
+-------------------*/
+header{
+    width: 100%;
+    height: 100px;
+    background: #1f1204;
+    border-radius: 15px 15px 0 0; 
+}
+
+#logo{
+    width: 160px;
+    height: 100px;
+    margin-left: 100px;
+    float: left;
+    color: #F0E68C;
+}
+
+/* BARRA DE NAVEGAÇÃO
+------------------------------*/
+nav ul{
+    list-style: none;
+    margin: 45px;
+    margin-right: 145px;
+    float: right;
+    color: #fff;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a:link{
+    display: block;
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+/* CONTEUDO DO SITE
+----------------------------------*/
+.btn-wrap{
+    position:relative;
+    text-align:center;
+}
+
+.btn-wrap button{
+    position:absolute;
+    z-index:1;
+    top:70%;
+    left:50%;
+    margin:-15px 0 0 -62px;   /* margem à esquerda e ao topo metade da medida do botão */
+}
+
+.banner{
+    margin-top: -15px;
+}
+
+#fotos-historia{
+    width: 500px;
+    height: 340px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.ft-historia{
+    width: 240px;
+    height: 160px;
+    margin: 4px;
+    float: left;
+}
+
+#txt-historia{
+    width: 500px;
+    height: 340px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#txt-historia h2, h3,p{
+    color: #341d08;
+    text-align: center;
+}
+
+.saiba-mais{
+    margin-left: 185px;
+    margin-top: 10px; 
+}
+
+#menu{
+    position: relative;
+    width: 1080px;
+    height: 381px;
+    clear: both;
+    margin-bottom: 15px;
+}
+
+#menu .conteudo-menu{
+    width: 800px;
+    height: 380px;
+    position: absolute;
+    z-index:1;
+    top:0%;
+    left:13.5%;
+}
+
+#menu .menu-food{
+    float: left;
+    margin-left: 50px;
+}
+
+#menu .menu-food p{
+    color: #fff;
+    text-align: left;
+}
+
+#menu .menu-food h3{
+    color: #fff;
+    text-align: left;
+}
+
+
+.btn-menu{
+    width: 150px;
+    margin-left: 320px;
+    margin-top: 20px;
+}
+
+.foto-reserva{
+    width: 500px;
+    height: 324px;
+    float: left;
+    margin-left: 30px; 
+    margin-bottom: 15px;
+}
+
+.form-reserva{
+    width: 500px;
+    height: 324px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #341d08;
+}
+
+input{
+	height: 30px;
+	width: 190px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #eee;
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.form-reserva input.btn{
+    margin-left: 185px;
+}
+
+select{
+    width: 162px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #eee;
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+#galeria{
+    width: 1080px;
+    height: 515px;
+    clear: both;
+}
+
+.foto-galeria{
+    width: 210px;
+    height: 140px;
+    float: left;
+    margin: 3px;
+}
+
+.foto-galeria:hover{
+    transform: scale(2);
+    transition: 1.5s;
+}
+
+.form-contato{
+    width: 380px;
+    height: 400px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    float: left;
+}
+
+textarea{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #eee;
+    font-size: 16px;
+}
+
+.local{
+    width: 630px;
+    height: 400px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    float: right;
+}
+
+footer{
+    clear: both;
+    width: 1080px;
+    height: 100px;
+    background: #1f1204;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 0 0 15px 15px; 
+}

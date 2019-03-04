@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Restaurante</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div id="logo">
+                <h1>Restaurante Deliciou's</h1>
+            </div>
+
+            <nav id="navegacao">
+                <ul>
+                    <li><a href="#navegacao">HOME</a></li>
+                    <li><a href="#fotos-historia">SOBRE</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#reserva">RESERVA</a></li>
+                    <li><a href="#galeria">GALERIA</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="home">
+
+            <div class="btn-wrap">
+                <img class="banner" src="imagens/banner.jpg" alt="">    
+                <button class="btn ver-menu">VER MENU</button>
+            </div>
+
+        </section>
+
+        <section id="fotos-historia">
+
+            <div class="ft-historia">
+                <img src="imagens/ft01.jpeg">
+            </div>
+
+            <div class="ft-historia">
+                <img src="imagens/ft02.jpeg">
+            </div>
+
+            <div class="ft-historia">
+                <img src="imagens/ft03.jpeg">
+            </div>
+
+            <div class="ft-historia">
+                <img src="imagens/ft04.jpeg">
+            </div>
+
+        </section>
+
+        <section id="txt-historia">
+            <h2>Bem vindo ao nosso restaurante</h2>
+            <h3>Nossa História</h3>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempor orci neque, non tristique justo pharetra id. Aliquam id enim molestie, sagittis augue et, elementum metus. Curabitur nibh justo, pharetra id facilisis sit amet, pharetra et mauris. Vestibulum aliquet feugiat fermentum. Nulla nec tristique erat. Morbi dictum tincidunt neque, non tempor quam faucibus eget. Nullam pharetra bibendum magna, id rutrum neque vulputate a. In hac habitasse platea dictumst. Duis elementum tempus ultrices. Maecenas efficitur efficitur velit quis vulputate. Duis non tortor massa. Suspendisse bibendum lacinia nibh, nec commodo erat aliquam ut. Aliquam dui velit, venenatis id aliquam eu, laoreet et leo. Pellentesque lobortis eleifend viverra. Morbi tempor vitae lorem vitae varius. Curabitur eu maximus odio. 
+            </p>
+
+            <button class="btn saiba-mais">SAIBA MAIS</button>
+        </section>
+
+        <section id="menu">
+            <img src="imagens/foto-menu02.jpg"> 
+            <div class="conteudo-menu">
+                <h2>Menu</h2>
+                
+                <div class="menu-food">
+                    <h3>Filé de peixe........................R$34</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="menu-food">
+                    <h3>Hamburguer..........................R$47</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="menu-food">
+                    <h3>Macarrão.............................R$26</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="menu-food">
+                    <h3>Peixe.....................................R$29</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="menu-food">
+                    <h3>Massa..................................R$18</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="menu-food">
+                    <h3>Beef.......................................R$45</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                
+                <button class="btn btn-menu">VER MENU COMPLETO</button>
+            </div>  
+        </section>
+
+        <section id="reserva">
+            <div class="foto-reserva">
+                <img src="imagens/reserved.jpeg">
+            </div>
+
+            <div class="form-reserva">
+                <h2>Reserve sua mesa</h2>
+
+                <form>
+                    <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Seu Nome">
+                    
+                    <label for="email">E-Mail</label>
+                        <input type="email" name="email" id="email" placeholder="Seu E-Mail"><br><br>
+
+                    <label for="data">Data</label>
+                        <input type="text" name="data" id="data" value="dd/mm/aaaa">
+
+                    <label for="hora">Horário</label>
+                        <input type="time" style="width: 177px" name="hora" id="hora" placeholder="Horário"><br><br>
+
+                    <label for="qtde">Quantidade de Pessoas</label>
+                        <input type="text" style="width: 50px" id="qtde" min="1" value="1">
+
+                    <label for="pag">Pagamento</label>
+                        <select name="pag" id="pag">
+                            <option value="dinheiro">Dinheiro</option>
+                            <option value="credito">Crédito</option>
+                            <option value="debito">Débito</option>
+                        </select><br><br><br>
+
+                    <input class="btn" type="submit" value="FAZER RESERVA">
+                </form>
+            </div>
+        </section> 
+        
+        <section id="galeria">
+
+            <h2>Galeria</h2>
+
+            <div class="foto-galeria">
+                <img src="imagens/galeria01.jpeg" width="210">
+            </div>
+
+            <div class="foto-galeria">
+                <img src="imagens/galeria02.jpeg" width="210">
+            </div>
+            
+            <div class="foto-galeria">
+                <img src="imagens/galeria03.jpeg" width="210">
+            </div>
+
+            <div class="foto-galeria">
+                <img src="imagens/galeria04.jpeg" width="210">
+            </div>
+
+            <div class="foto-galeria">
+                <img src="imagens/galeria05.jpeg" width="210">
+            </div>
+
+            <div class="foto-galeria">
+                <img src="imagens/galeria06.jpeg" width="210">
+            </div>
+
+            <div class="foto-galeria">
+                <img src="imagens/galeria07.jpeg" width="210">
+            </div>
+
+            <div class="foto-galeria">
+                <img src="imagens/galeria08.jpeg" width="210">
+            </div>
+
+            <div class="foto-galeria">
+                <img src="imagens/galeria09.jpg" width="210">
+            </div>
+
+            <div class="foto-galeria">
+                <img src="imagens/galeria10.jpeg" width="210">
+            </div>
+
+            <div class="foto-galeria">
+                    <img src="imagens/galeria11.jpg" width="210">
+            </div>
+
+            <div class="foto-galeria">
+                    <img src="imagens/galeria12.jpg" width="210">
+            </div>
+    
+            <div class="foto-galeria">
+                <img src="imagens/galeria13.jpg" width="210">
+            </div>
+    
+            <div class="foto-galeria">
+                <img src="imagens/galeria14.jpg" width="210">
+            </div>
+    
+            <div class="foto-galeria">
+                <img src="imagens/galeria15.jpeg" width="210">
+            </div>
+
+        </section>
+
+        <section id="contato">
+
+            <div class="form-contato">
+                <h2>Contato</h2>
+
+                <form>
+                    <label for="nome">Nome</label>
+                        <input type="text" style="width:296px" name="nome" id="nome" placeholder="Seu Nome"><br>
+                    
+                    <label for="email">EMail</label>
+                        <input type="email" style="width:296px" name="email" id="email" placeholder="Seu E-Mail"><br>
+
+                    <label for="telefone">Telefone</label>
+                        <input type="text" style="width:270px" name="telefone" id="telefone" placeholder="(xx)xxxxx-xxxx"><br>
+
+                    <label for="msg">Deixe sua mensagem</label><br>
+                    <textarea name="msg" id="msg" cols="36" rows="5"></textarea><br>
+
+                    <input class="btn" type="submit" value="ENVIAR">
+
+                </form>
+
+                <span style="float:right; margin-right:35px"><strong>Telefone:</strong> (99)99999-9999<br>
+                <strong>E-mail:</strong> restaurante@email.com</span>
+
+            </div>
+
+            <div class="local">
+                <h2>Localização</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12123.065442414307!2d-111.86841077042145!3d40.568836469561354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875287f5b2f55cc9%3A0xf6bd63b1f748c673!2sEuah+Acres%2C+White+City%2C+UT+84094%2C+EUA!5e0!3m2!1spt-BR!2sbr!4v1551226224334" width="630" height="340" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+        </section>
+
+
+        <footer> Copyright &copy; 2019 | Restaurante Deliciou's - Todos os direitos reservados</footer>    
+    </main>
+
+    <a href="#navegacao">
+        <button class="btn topo">
+            Topo
+        </button>
+    </a>
+</body>
+</html>  
